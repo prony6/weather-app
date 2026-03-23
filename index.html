@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/layout.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="header-wrapper container">
+                    <span class="logo">W</span>
+                    <span class="app-title">A Simple Weather App</span>
+                    <div class="settings">
+                        <span>Settings</span>
+                        <span>Mode</span>
+                    </div>
+                </div>
+            </header>
+            <section>
+                <div class="input-wrapper container">
+                    <input id="city-input" type="text" class="key-input" placeholder="Search for your city/town">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </section>
+            <section>
+                <div class="weather-wrapper container">
+                    <div class="weather-top">
+                        <div class="city">City Name</div>
+                        <div class="temperature-main">
+                            <h3 class="temp">25</h3>
+                        </div>
+                        <div class="weather-desc">
+                            <div class="weather-desc1">
+                                <span class="span-icon">Icon</span> 
+                                <span class="span-main">Main</span>
+                            </div>
+                            <span class="span-desc">Description</span>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="temperature">
+                            <div class="feel">
+                                <span>Feels like</span> 
+                                <span class="span-feel">23</span>
+                            </div>
+                            <div class="max">
+                                <span>Max temp</span> 
+                                <span class="span-max-temp">27</span>
+                            </div>
+                            <div class="min">
+                                <span>Min temp</span> 
+                                <span class="span-min-temp">18</span>
+                            </div>
+                        </div>
+                        
+                        <div class="others">
+                            <div class="pressure">
+                                <span>Pressure</span> 
+                                <span class="span-pressure">mmHg</span> 
+                            </div>
+                            <div class="humidity">
+                                <span>Humidity</span>
+                                <span class="span-humidity">60%</span>
+                            </div>
+                            <div class="wind">
+                                <span>Wind speed</span> 
+                                <span class="span-wind">5 km/hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="./js/script.js" async defer></script>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+:root {
+  /* 1. THE ATMOSPHERIC PELLETTE */
+  /* System Font Stack for readability */
+  --font-main:
+    "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+
+  /* Responsive Font Sizes */
+  --fs-hero: clamp(3rem, 10vw, 5rem); /* Huge main temp */
+  --fs-title: 1.5rem;
+  --fs-body: 1rem;
+  --fs-detail: 0.875rem; /* For labels like "Humidity" */
+
+  /* Spacing & Borders */
+  --radius-card: 24px; /* Modern rounded look */
+  --spacing-section: 32px;
+  --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* The 60% Glassmorphim instead of solid white */
+  --bg-card: #f8fafc;
+  --card-blur: blur(12px);
+
+  /* The 30% - high contrast topography */
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+
+  /* The 10% - functional accents */
+  --accent: #2563eb; /* sun/warning yellow */
+  --accent-safe: #1d4ed8; /*good air quality/mild temp */
+
+  /* 2. LAYOUT & DATA SPACING */
+  --conatiner-width: 900px;
+  --section-gap: 48px; /* Grouping - daily vs hourly */
+  --inside-card: 24px;
+  --element-gap: 12px; /* Inner card spacing - humidity, wind */
+
+  /* Specific weather specs */
+  --temp-huge: clamp(4rem, 15vw, 8rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 468px) {
+  .btn {
+    padding: 8px 10px;
+  }
+}
