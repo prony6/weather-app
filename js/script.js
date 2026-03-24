@@ -1,9 +1,9 @@
-//API_KEY = fb7d086bc1dd8d81bcc466f090f3a580
+//API_KEY = ??
 //BASIC_ENDPOINT = https://api.openweathermap.org/data/2.5/weather
 //CITY_NAME = ?q=London
-//PLUS_API = &appid=fb7d086bc1dd8d81bcc466f090f3a580
+//PLUS_API = &appid=API_KEY
 //ADD UNITS = &units=metric
-//FULL_URL = https://api.openweathermap.org/data/2.5/weather?q=London&appid=fb7d086bc1dd8d81bcc466f090f3a580&units=metric
+//FULL_URL = https://api.openweathermap.org/data/2.5/weather?q=London&appid={API_KEY}&units=metric
 
 const API_KEY = "fb7d086bc1dd8d81bcc466f090f3a580";
 const city = document.getElementById("city-input");
