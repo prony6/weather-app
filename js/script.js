@@ -5,7 +5,7 @@
 //ADD UNITS = &units=metric
 //FULL_URL = https://api.openweathermap.org/data/2.5/weather?q=London&appid={API_KEY}&units=metric
 
-const API_KEY = "fb7d086bc1dd8d81bcc466f090f3a580";
+const API_KEY = "";
 const city = document.getElementById("city-input");
 const submitCity = document.querySelector(".btn");
 
